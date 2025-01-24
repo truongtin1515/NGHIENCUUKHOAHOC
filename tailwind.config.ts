@@ -11,8 +11,16 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "brown-red": "#9b4100", 
+        "bright-orange": "#ff7300",
+        "dark-red":"#a50000"
       },
     },
   },
-  plugins: [],
+  daisyui: {
+    themes: ["light", "dark", "cupcake","black"],
+  },
+  plugins: [
+    require('daisyui')
+  ],
 } satisfies Config;
