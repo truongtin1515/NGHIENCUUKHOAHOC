@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.bg-gradient-to-r {
+  background: linear-gradient(to right, #c85d5d, #f9a300);
+}
+
+.bg-brown-red {
+  background-color: #c85d5d;
+}
+
+.bg-bright-orange {
+  background-color: #f9a300;
+}
+
+h2 {
+  color: #ff5722; /* Màu sắc tiêu đề */
+}
+
+h3 {
+  color: #333;
+}
+
+p {
+  color: #555;
+  margin: 10px 0;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  margin: 5px 0;
+  color: #444;
+}
