@@ -13,12 +13,12 @@ const RegisterClass = () => {
 		const selectedClass = registerClasses[0][classType];
 		setRegisterClass(selectedClass); // Cập nhật loại dịch vụ
 		setTotalCost(selectedClass.costday * 30 * months); // Tính lại tổng tiền dựa trên số tháng hiện tại
-	  };
+	};
 	
-	  const handleMonthsChange = (newMonths: number) => {
+	const handleMonthsChange = (newMonths: number) => {
 		setMonths(newMonths); 
 		setTotalCost(registerClass.costday * 30 * newMonths); // Tính lại tổng tiền
-	  };
+	};
 	
 
   return (

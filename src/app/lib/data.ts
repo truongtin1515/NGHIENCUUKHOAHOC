@@ -64,6 +64,13 @@ export const calendarEvents = [
     end: new Date(2025, 0, 25, 6, 0, 0),   // Đến 6:00 AM
     trainer: "Tâm",
   },
+  {
+    id:10,
+    title: "Tập lưng",
+    start: new Date(2025, 0, 26, 5, 0, 0),
+    end: new Date(2025, 0, 26, 6, 0, 0),  
+    trainer: "Tâm",
+  },
 ];
 export const eventDetail = [
   // idcalendar 1 - Ngực
@@ -299,6 +306,31 @@ export const eventDetail = [
     title: "Jump Rope",
     notes: "4 sets x 2 phút, cardio nhanh và hiệu quả.",
   },
+  // idcalendar 10 - Cardio
+  {
+    id: 37,
+    idcalendar: 10,
+    title: "Running on Treadmill",
+    notes: "4 sets x 10 phút, tăng sức bền và đốt mỡ.",
+  },
+  {
+    id: 38,
+    idcalendar: 10,
+    title: "Cycling",
+    notes: "4 sets x 10 phút, tập trung vào tim mạch và chân.",
+  },
+  {
+    id: 39,
+    idcalendar: 10,
+    title: "Rowing Machine",
+    notes: "4 sets x 8 phút, kết hợp cardio và lưng.",
+  },
+  {
+    id: 40,
+    idcalendar: 10,
+    title: "Jump Rope",
+    notes: "4 sets x 2 phút, cardio nhanh và hiệu quả.",
+  },
 ];
 export const memberShips=[
   {
@@ -468,5 +500,79 @@ export const productsdata = [
     href: "/",
     inStock: true,
     imageUrl: "/images/products/shaker-bottle.jpg",
+  },
+];
+
+
+export const cartItems = [
+  {
+    id: 1,
+    name: "Sữa Dalatmilk 1L",
+    category: ["Có đường", "Không đường"],
+    price: 35000,
+    imageUrl: "/images/cart/dalatmilk-1l.jpg",
+  },
+  {
+    id: 2,
+    name: "Bánh khoai lang tím",
+    category: ["Nhân đậu xanh", "Nhân phô mai"],
+    price: 25000,
+    imageUrl: "/images/cart/khoai-lang-tim.jpg",
+  },
+  {
+    id: 3,
+    name: "Snack trái cây sấy Sprout",
+    category: ["Táo", "Chuối", "Dâu"],
+    price: 45000,
+    imageUrl: "/images/cart/sprout-snack.jpg",
+  },
+  {
+    id: 4,
+    name: "Hạt đậu khô Green One",
+    category: ["Đậu nành", "Đậu đỏ", "Đậu xanh"],
+    price: 60000,
+    imageUrl: "/images/cart/green-one-beans.jpg",
+  },
+  {
+    id: 5,
+    name: "Sữa hạt dinh dưỡng",
+    category: ["Hạnh nhân", "Óc chó", "Hạt điều"],
+    price: 55000,
+    imageUrl: "/images/cart/nut-milk.jpg",
+  },
+  {
+    id: 6,
+    name: "Bột Whey Protein",
+    category: ["Vani", "Chocolate", "Dâu"],
+    price: 599000,
+    imageUrl: "/images/cart/whey-protein.jpg",
+  },
+  {
+    id: 7,
+    name: "Thảm tập Yoga",
+    category: ["Xanh dương", "Hồng", "Tím"],
+    price: 199000,
+    imageUrl: "/images/cart/yoga-mat.jpg",
+  },
+  {
+    id: 8,
+    name: "Dây kháng lực",
+    category: ["Nhẹ", "Trung bình", "Nặng"],
+    price: 150000,
+    imageUrl: "/images/cart/resistance-bands.jpg",
+  },
+  {
+    id: 9,
+    name: "Bộ tạ tay 10kg",
+    category: ["2 x 5kg", "2 x 10kg"],
+    price: 1200000,
+    imageUrl: "/images/cart/dumbbells.jpg",
+  },
+  {
+    id: 10,
+    name: "Áo tập gym nam",
+    category: ["S", "M", "L", "XL"],
+    price: 299000,
+    imageUrl: "/images/cart/gym-shirt.jpg",
   },
 ];
