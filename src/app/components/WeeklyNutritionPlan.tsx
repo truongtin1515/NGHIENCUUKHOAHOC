@@ -314,7 +314,6 @@ const WeeklyNutritionPlan = () => {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center py-8">
-      <h1 className="text-2xl mb-6">Thực Đơn Dinh Dưỡng Cả Tuần</h1>
       {Object.entries(menu).map(([goal, days]) => (
         <div key={goal} className="bg-gray-800 rounded-lg p-6 mb-6 w-full max-w-4xl">
           <h2 className="text-xl font-bold mb-4">{goal}</h2>

@@ -3,12 +3,12 @@ import React from "react";
 const NutritionPyramid = () => {
   return (
     <div className="min-h-screen bg-black text-white flex flex-col items-center py-8">
-      <div className="w-full max-w-4xl bg-gray-800 rounded-lg p-6 flex flex-row items-center">
+      <div className="w-full max-w-4xl text-white rounded-lg p-6 flex flex-row items-center">
 
         {/* Hình ảnh bên trái */}
         <div className="w-1/2 flex justify-center">
           <img
-            src="/Images/thapdinhduong.png" // Đảm bảo đường dẫn đúng
+            src="/Images/thapdinhduong.png" 
             alt="Nutrition Pyramid"
             className="w-full h-[400px] object-contain" // Tăng chiều cao hình ảnh lên 700px
           />
