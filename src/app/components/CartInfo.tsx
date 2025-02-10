@@ -19,7 +19,7 @@ const CartInfo = () => {
 			<option value="female">Female</option>
 		</select>
 		<p>99.999đ</p> 
-		<QuantitySelector defaultValue={1} onValueChange={null}/>
+		{/* <QuantitySelector defaultValue={1} onValueChange={null}/> */}
 		<p>99.999đ</p>
 		<FontAwesomeIcon icon={faTrash} width={20} height={20}/>
 	</div>
