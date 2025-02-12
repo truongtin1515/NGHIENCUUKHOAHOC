@@ -4,9 +4,9 @@ import NutritionPyramid from '../../components/NutritionPyramid';
 import WeeklyNutritionPlan from '../../components/WeeklyNutritionPlan';
 
 
-const HomePage: React.FC = () => {
+const HomePage = () => {
     return (
-        <div className="container mx-auto p-4 bg-gray-100">
+        <div className="container mx-auto p-4 ">
             <div className=''>
                 <h1 className="text-3xl font-bold mb-4 text-center">Chế Độ Dinh Dưỡng (Nutrition Plan)</h1>
                 <NutritionPyramid />

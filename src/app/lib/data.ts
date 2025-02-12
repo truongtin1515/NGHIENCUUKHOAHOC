@@ -187,3 +187,336 @@ export const calendarEvents = [
         type: 'Flexibility Training',
     },
 ];
+export const menu = [
+    {
+      id: 1,
+      name: "Tăng cơ",
+      schedule: [
+        {
+          day: "Thứ Hai",
+          meals: [
+            { name: "Bữa sáng", food: "Bánh mì với trứng và bơ đậu phộng" },
+            { name: "Bữa xế", food: "Sữa chua với hạt chia" },
+            { name: "Bữa trưa", food: "Cơm gà xé với rau củ" },
+            { name: "Bữa xế chiều", food: "Sinh tố protein" },
+            { name: "Bữa tối", food: "Cá hồi nướng với khoai tây" },
+          ],
+        },
+        {
+          day: "Thứ Ba",
+          meals: [
+            { name: "Bữa sáng", food: "Mì Ý với thịt bò bằm" },
+            { name: "Bữa xế", food: "Hạt điều" },
+            { name: "Bữa trưa", food: "Cơm tấm sườn nướng" },
+            { name: "Bữa xế chiều", food: "Trái cây tươi" },
+            { name: "Bữa tối", food: "Gà nướng với khoai lang" },
+          ],
+        },
+        {
+          day: "Thứ Tư",
+          meals: [
+            { name: "Bữa sáng", food: "Bột yến mạch với quả mọng" },
+            { name: "Bữa xế", food: "Sữa đậu nành" },
+            { name: "Bữa trưa", food: "Salad quinoa với đậu" },
+            { name: "Bữa xế chiều", food: "Bánh mì nướng với bơ" },
+            { name: "Bữa tối", food: "Thịt lợn nướng với rau củ" },
+          ],
+        },
+        {
+          day: "Thứ Năm",
+          meals: [
+            { name: "Bữa sáng", food: "Trứng ốp la với rau bina" },
+            { name: "Bữa xế", food: "Sinh tố chuối" },
+            { name: "Bữa trưa", food: "Cơm chiên với tôm" },
+            { name: "Bữa xế chiều", food: "Hạt hướng dương" },
+            { name: "Bữa tối", food: "Cá chiên với salad" },
+          ],
+        },
+        {
+          day: "Thứ Sáu",
+          meals: [
+            { name: "Bữa sáng", food: "Bánh pancake protein" },
+            { name: "Bữa xế", food: "Yogurt với mật ong" },
+            { name: "Bữa trưa", food: "Gà xào với nấm" },
+            { name: "Bữa xế chiều", food: "Trái cây khô" },
+            { name: "Bữa tối", food: "Bò bít tết với khoai tây" },
+          ],
+        },
+        {
+          day: "Thứ Bảy",
+          meals: [
+            { name: "Bữa sáng", food: "Bánh mì kẹp trứng" },
+            { name: "Bữa xế", food: "Sữa hạt" },
+            { name: "Bữa trưa", food: "Salad gà nướng" },
+            { name: "Bữa xế chiều", food: "Bánh quy protein" },
+            { name: "Bữa tối", food: "Gà rang muối" },
+          ],
+        },
+        {
+          day: "Chủ Nhật",
+          meals: [
+            { name: "Bữa sáng", food: "Bánh mì nướng với bơ và chuối" },
+            { name: "Bữa xế", food: "Hạt óc chó" },
+            { name: "Bữa trưa", food: "Cơm gà với rau xanh" },
+            { name: "Bữa xế chiều", food: "Trà xanh" },
+            { name: "Bữa tối", food: "Tôm hấp với rau củ" },
+          ],
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: "Giảm cân",
+      schedule: [
+        {
+          day: "Thứ Hai",
+          meals: [
+            { name: "Bữa sáng", food: "Trái cây tươi và ngũ cốc" },
+            { name: "Bữa xế", food: "Hạt hạnh nhân" },
+            { name: "Bữa trưa", food: "Salad gà" },
+            { name: "Bữa xế chiều", food: "Trà xanh" },
+            { name: "Bữa tối", food: "Thịt bò xào với bông cải xanh" },
+          ],
+        },
+        {
+          day: "Thứ Ba",
+          meals: [
+            { name: "Bữa sáng", food: "Bánh mì nguyên cám với trứng" },
+            { name: "Bữa xế", food: "Sinh tố rau xanh" },
+            { name: "Bữa trưa", food: "Cơm gạo lứt với cá" },
+            { name: "Bữa xế chiều", food: "Trái cây tươi" },
+            { name: "Bữa tối", food: "Gà xào rau củ" },
+          ],
+        },
+        {
+          day: "Thứ Tư",
+          meals: [
+            { name: "Bữa sáng", food: "Bột yến mạch không đường" },
+            { name: "Bữa xế", food: "Hạt chia" },
+            { name: "Bữa trưa", food: "Salad quinoa" },
+            { name: "Bữa xế chiều", food: "Trà thảo mộc" },
+            { name: "Bữa tối", food: "Súp rau củ" },
+          ],
+        },
+        {
+          day: "Thứ Năm",
+          meals: [
+            { name: "Bữa sáng", food: "Trái cây tươi" },
+            { name: "Bữa xế", food: "Hạt hướng dương" },
+            { name: "Bữa trưa", food: "Cơm gạo lứt với đậu phụ" },
+            { name: "Bữa xế chiều", food: "Sữa đậu nành" },
+            { name: "Bữa tối", food: "Cá nướng với rau" },
+          ],
+        },
+        {
+          day: "Thứ Sáu",
+          meals: [
+            { name: "Bữa sáng", food: "Bánh pancake yến mạch" },
+            { name: "Bữa xế", food: "Sữa chua không đường" },
+            { name: "Bữa trưa", food: "Salad gà nướng" },
+            { name: "Bữa xế chiều", food: "Trái cây khô" },
+            { name: "Bữa tối", food: "Thịt bò nướng với rau" },
+          ],
+        },
+        {
+          day: "Thứ Bảy",
+          meals: [
+            { name: "Bữa sáng", food: "Bánh mì kẹp rau" },
+            { name: "Bữa xế", food: "Trà xanh" },
+            { name: "Bữa trưa", food: "Cơm cuộn rau củ" },
+            { name: "Bữa xế chiều", food: "Hạt hạnh nhân" },
+            { name: "Bữa tối", food: "Gà hấp với bông cải" },
+          ],
+        },
+        {
+          day: "Chủ Nhật",
+          meals: [
+            { name: "Bữa sáng", food: "Sữa chua với trái cây" },
+            { name: "Bữa xế", food: "Hạt chia" },
+            { name: "Bữa trưa", food: "Cơm gạo lứt với cá hồi" },
+            { name: "Bữa xế chiều", food: "Trà thảo mộc" },
+            { name: "Bữa tối", food: "Súp bắp cải" },
+          ],
+        },
+      ],
+    },
+    {
+      id: 33,
+      name: "Giảm mỡ",
+      schedule: [
+        {
+          day: "Thứ Hai",
+          meals: [
+            { name: "Bữa sáng", food: "Trái cây tươi và ngũ cốc" },
+            { name: "Bữa xế", food: "Hạt hạnh nhân" },
+            { name: "Bữa trưa", food: "Salad gà" },
+            { name: "Bữa xế chiều", food: "Trà xanh" },
+            { name: "Bữa tối", food: "Thịt bò xào với bông cải xanh" },
+          ],
+        },
+        {
+          day: "Thứ Ba",
+          meals: [
+            { name: "Bữa sáng", food: "Bánh mì nguyên cám với trứng" },
+            { name: "Bữa xế", food: "Sinh tố rau xanh" },
+            { name: "Bữa trưa", food: "Cơm gạo lứt với cá" },
+            { name: "Bữa xế chiều", food: "Trái cây tươi" },
+            { name: "Bữa tối", food: "Gà xào rau củ" },
+          ],
+        },
+        {
+          day: "Thứ Tư",
+          meals: [
+            { name: "Bữa sáng", food: "Bột yến mạch không đường" },
+            { name: "Bữa xế", food: "Hạt chia" },
+            { name: "Bữa trưa", food: "Salad quinoa" },
+            { name: "Bữa xế chiều", food: "Trà thảo mộc" },
+            { name: "Bữa tối", food: "Súp rau củ" },
+          ],
+        },
+        {
+          day: "Thứ Năm",
+          meals: [
+            { name: "Bữa sáng", food: "Trái cây tươi" },
+            { name: "Bữa xế", food: "Hạt hướng dương" },
+            { name: "Bữa trưa", food: "Cơm gạo lứt với đậu phụ" },
+            { name: "Bữa xế chiều", food: "Sữa đậu nành" },
+            { name: "Bữa tối", food: "Cá nướng với rau" },
+          ],
+        },
+        {
+          day: "Thứ Sáu",
+          meals: [
+            { name: "Bữa sáng", food: "Bánh pancake yến mạch" },
+            { name: "Bữa xế", food: "Sữa chua không đường" },
+            { name: "Bữa trưa", food: "Salad gà nướng" },
+            { name: "Bữa xế chiều", food: "Trái cây khô" },
+            { name: "Bữa tối", food: "Thịt bò nướng với rau" },
+          ],
+        },
+        {
+          day: "Thứ Bảy",
+          meals: [
+            { name: "Bữa sáng", food: "Bánh mì kẹp rau" },
+            { name: "Bữa xế", food: "Trà xanh" },
+            { name: "Bữa trưa", food: "Cơm cuộn rau củ" },
+            { name: "Bữa xế chiều", food: "Hạt hạnh nhân" },
+            { name: "Bữa tối", food: "Gà hấp với bông cải" },
+          ],
+        },
+        {
+          day: "Chủ Nhật",
+          meals: [
+            { name: "Bữa sáng", food: "Sữa chua với trái cây" },
+            { name: "Bữa xế", food: "Hạt chia" },
+            { name: "Bữa trưa", food: "Cơm gạo lứt với cá hồi" },
+            { name: "Bữa xế chiều", food: "Trà thảo mộc" },
+            { name: "Bữa tối", food: "Súp bắp cải" },
+          ],
+        },
+      ],
+    },
+    {
+        id: 4,
+        name: "Độ Mông",
+        schedule: [
+          {
+            day: "Thứ Hai",
+            meals: [
+              { name: "Bữa sáng", food: "Trái cây tươi và ngũ cốc" },
+              { name: "Bữa xế", food: "Hạt hạnh nhân" },
+              { name: "Bữa trưa", food: "Salad gà" },
+              { name: "Bữa xế chiều", food: "Trà xanh" },
+              { name: "Bữa tối", food: "Thịt bò xào với bông cải xanh" },
+            ],
+          },
+          {
+            day: "Thứ Ba",
+            meals: [
+              { name: "Bữa sáng", food: "Bánh mì nguyên cám với trứng" },
+              { name: "Bữa xế", food: "Sinh tố rau xanh" },
+              { name: "Bữa trưa", food: "Cơm gạo lứt với cá" },
+              { name: "Bữa xế chiều", food: "Trái cây tươi" },
+              { name: "Bữa tối", food: "Gà xào rau củ" },
+            ],
+          },
+          {
+            day: "Thứ Tư",
+            meals: [
+              { name: "Bữa sáng", food: "Bột yến mạch không đường" },
+              { name: "Bữa xế", food: "Hạt chia" },
+              { name: "Bữa trưa", food: "Salad quinoa" },
+              { name: "Bữa xế chiều", food: "Trà thảo mộc" },
+              { name: "Bữa tối", food: "Súp rau củ" },
+            ],
+          },
+          {
+            day: "Thứ Năm",
+            meals: [
+              { name: "Bữa sáng", food: "Trái cây tươi" },
+              { name: "Bữa xế", food: "Hạt hướng dương" },
+              { name: "Bữa trưa", food: "Cơm gạo lứt với đậu phụ" },
+              { name: "Bữa xế chiều", food: "Sữa đậu nành" },
+              { name: "Bữa tối", food: "Cá nướng với rau" },
+            ],
+          },
+          {
+            day: "Thứ Sáu",
+            meals: [
+              { name: "Bữa sáng", food: "Bánh pancake yến mạch" },
+              { name: "Bữa xế", food: "Sữa chua không đường" },
+              { name: "Bữa trưa", food: "Salad gà nướng" },
+              { name: "Bữa xế chiều", food: "Trái cây khô" },
+              { name: "Bữa tối", food: "Thịt bò nướng với rau" },
+            ],
+          },
+          {
+            day: "Thứ Bảy",
+            meals: [
+              { name: "Bữa sáng", food: "Bánh mì kẹp rau" },
+              { name: "Bữa xế", food: "Trà xanh" },
+              { name: "Bữa trưa", food: "Cơm cuộn rau củ" },
+              { name: "Bữa xế chiều", food: "Hạt hạnh nhân" },
+              { name: "Bữa tối", food: "Gà hấp với bông cải" },
+            ],
+          },
+          {
+            day: "Chủ Nhật",
+            meals: [
+              { name: "Bữa sáng", food: "Sữa chua với trái cây" },
+              { name: "Bữa xế", food: "Hạt chia" },
+              { name: "Bữa trưa", food: "Cơm gạo lứt với cá hồi" },
+              { name: "Bữa xế chiều", food: "Trà thảo mộc" },
+              { name: "Bữa tối", food: "Súp bắp cải" },
+            ],
+          },
+        ],
+      },
+  ];
+
+  const trainingPlans = [
+  {
+    id: 1,
+    name: "Giảm cân (Weight Loss Program)",
+    goal: "Giảm mỡ, cải thiện sức khỏe tim mạch, tăng cường năng lượng.",
+    duration: 12,
+    details: [
+      { week: "Tuần 1-4", description: "Cardio kết hợp tập tạ nhẹ (3-4 buổi/tuần)." },
+      { week: "Tuần 5-8", description: "Tăng cường cường độ HIIT và bài tập toàn thân." },
+      { week: "Tuần 9-12", description: "Xen kẽ cardio, bài tập sức mạnh và tăng khối lượng tạ." }
+    ]
+  },
+  {
+    id: 2,
+    name: "Tăng cơ (Muscle Building Program)",
+    goal: "Tăng khối lượng cơ, cải thiện sức mạnh.",
+    duration: 16,
+    details: [
+      { week: "Tuần 1-4", description: "Tập toàn thân, nhấn mạnh vào các bài compound." },
+      { week: "Tuần 5-8", description: "Tăng khối lượng tạ và chia nhỏ nhóm cơ (push/pull/legs)." },
+      { week: "Tuần 9-16", description: "Chuyên sâu từng nhóm cơ, tăng cường bài tập isolation." }
+    ]
+  }
+];
+
+export default trainingPlans;
