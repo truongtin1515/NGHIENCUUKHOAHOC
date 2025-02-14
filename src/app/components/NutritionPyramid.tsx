@@ -28,7 +28,6 @@ const NutritionPyramid = () => {
           </p>
         </div>
 
-        {/* Chữ (Ẩn khi chưa hover) */}
         <div
           className={`absolute right-0 w-1/2 transition-opacity duration-500 ${
             isHovered ? "opacity-100" : "opacity-0"
