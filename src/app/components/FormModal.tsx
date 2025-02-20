@@ -9,8 +9,6 @@ const UserForm = dynamic(() => import("./forms/UserForm"), { loading: () => <h1>
 const WorkoutScheduleForm = dynamic(() => import("./forms/WorkoutScheduleForm"), { loading: () => <h1>Loading</h1> });
 const NutritionForm = dynamic(() => import("./forms/NutritionForm"), { loading: () => <h1>Loading</h1> });
 const EventForm = dynamic(() => import("./forms/EventForm"), { loading: () => <h1>Loading</h1> });
-const MembershipForm = dynamic(() => import("./forms/MembershipForm"), { loading: () => <h1>Loading</h1> });
-const FeedbackForm = dynamic(() => import("./forms/FeedbackForm"), { loading: () => <h1>Loading</h1> });
 const ClassForm = dynamic(() => import("./forms/ClassForm"), { loading: () => <h1>Loading</h1> });
 
 const forms: { [key: string]: (type: "create" | "update", data?: any) => JSX.Element } = {
@@ -18,8 +16,6 @@ const forms: { [key: string]: (type: "create" | "update", data?: any) => JSX.Ele
   workoutSchedule: (type, data) => <WorkoutScheduleForm type={type} data={data} />, 
   nutrition: (type, data) => <NutritionForm type={type} data={data} />, 
   event: (type, data) => <EventForm type={type} data={data} />, 
-  membership: (type, data) => <MembershipForm type={type} data={data} />, 
-  feedback: (type, data) => <FeedbackForm type={type} data={data} />, 
   class: (type, data) => <ClassForm type={type} data={data} />, 
 };
 

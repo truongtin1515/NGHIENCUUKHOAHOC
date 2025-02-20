@@ -34,29 +34,14 @@ const EventForm = ({ type, data }: { type: "create" | "update"; data?: any }) =>
     console.log(formData);
   });
 
-  const participantGroups = [
-    "Bất kỳ ai",
-    "card FIRE",
-    "card FIRE-PLUS",
-    "card FIRE-VIP",
-  ];
-
-  const selectedGroups = watch("participantGroup") || [];
-
-  const handleCheckboxChange = (group: string) => {
-    const newGroups = selectedGroups.includes(group)
-      ? selectedGroups.filter((g) => g !== group)
-      : [...selectedGroups, group];
-    setValue("participantGroup", newGroups);
-  };
-
+  
   return (
     <form className="flex flex-col gap-8" onSubmit={onSubmit}>
       <h1 className="text-xl font-semibold">
         {type === "create" ? "Create a New Event" : "Update Event"}
       </h1>
 
-      <div className="flex flex-wrap gap-4">
+      <div className="flex justify-between flex-wrap gap-4">
         <InputField
           label="Event Name"
           name="eventName"
@@ -87,18 +72,23 @@ const EventForm = ({ type, data }: { type: "create" | "update"; data?: any }) =>
 
       <div className="flex flex-col gap-2">
         <label className="text-sm font-medium">Participant Group</label>
-        <div className="flex flex-wrap gap-3">
-          {participantGroups.map((group) => (
-            <label key={group} className="flex items-center gap-2">
-              <input
-                type="checkbox"
-                value={group}
-                checked={selectedGroups.includes(group)}
-                onChange={() => handleCheckboxChange(group)}
-              />
-              {group}
+        <div className="flex flex-wrap  gap-3">
+            <label className="label cursor-pointer gap-2">
+              <input type="checkbox" defaultChecked className="checkbox border-2 border-gray-500 rounded-full  " />
+              <span className="label-text text-black">Everybody</span>
             </label>
-          ))}
+            <label className="label cursor-pointer gap-2">
+              <input type="checkbox"  className="checkbox border-2 border-gray-500 rounded-full  " />
+              <span className="label-text text-black">FIRE</span>
+            </label>
+            <label className="label cursor-pointer gap-2">
+              <input type="checkbox"  className="checkbox border-2 border-gray-500 rounded-full  " />
+              <span className="label-text text-black">FIRE-PLUS</span>
+            </label>
+            <label className="label cursor-pointer gap-2">
+              <input type="checkbox"  className="checkbox border-2 border-gray-500 rounded-full  " />
+              <span className="label-text text-black">FIRE-VIP</span>
+            </label>
         </div>
         {errors.participantGroup && (
           <p className="text-xs text-red-400">
@@ -106,7 +96,6 @@ const EventForm = ({ type, data }: { type: "create" | "update"; data?: any }) =>
           </p>
         )}
       </div>
-
       <div className="flex flex-col gap-2">
         <label className="text-sm flex items-center gap-2 cursor-pointer" htmlFor="photo">
           <FontAwesomeIcon icon={faArrowUpFromBracket} className="w-5 h-5" />
