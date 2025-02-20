@@ -1,6 +1,6 @@
 "use client"
 
-import { calendarEvents, eventDetail } from "../lib/data";
+import {fullcalendarEvents } from "../lib/data";
 import FullCalendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import timeGridPlugin from "@fullcalendar/timegrid";
@@ -12,7 +12,7 @@ import EventDetails from "./EventDetails";
 
 const FullCalendars = () => {
   const [currentStartDate, setCurrentStartDate] = useState<Date>(new Date());
-  const [events, setEvents] = useState(calendarEvents.map(event=>({
+  const [events, setEvents] = useState(fullcalendarEvents.map(event=>({
     ...event,// Sao chép toàn bộ thuộc tính từ `event`
     id: event.id.toString(),
   })));
@@ -31,7 +31,7 @@ const FullCalendars = () => {
     endOfWeek.setHours(23, 59, 59, 999);
 
     // Lọc sự kiện trong tuần
-    const filteredEvents = calendarEvents.filter((event) => {
+    const filteredEvents = fullcalendarEvents.filter((event) => {
       const eventDate = new Date(event.start);
       return eventDate >= startOfWeek && eventDate <= endOfWeek;
     });

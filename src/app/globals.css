@@ -27,3 +27,21 @@
 .fc-scrollgrid-sync-inner, .fc-timegrid-axis{
 	background: #000;
 }
+
+
+.react-calendar{
+	background: #000 !important;
+	width: 100% !important;
+}
+.react-calendar__tile:hover{
+	background-color: #9b4100 !important;
+}
+.react-calendar__navigation__label:hover{
+	background-color: #9b4100 !important;
+}
+.react-calendar__navigation__arrow:hover{
+	background-color: #9b4100 !important;
+}
+.react-calendar__navigation__arrow{
+	background-color: black !important;
+}
