@@ -1,7 +1,13 @@
-const WorkoutScheduleId = () => {
+import FullCalendars from "@/app/components/FullCalendar";
+
+
+const SchedulePage = () => {
   return (
-	<div className=''>WorkoutScheduleId</div>
+	<div className='h-full w-full p-4'>
+    <h1 className="text-2xl text-white font-bold text-center"> Lịch Tập (Schedule)</h1>
+    <FullCalendars/>
+  </div>
   );
 };
 
-export default WorkoutScheduleId;
+export default SchedulePage;

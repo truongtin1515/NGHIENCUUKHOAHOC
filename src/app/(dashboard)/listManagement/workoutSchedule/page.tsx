@@ -38,7 +38,7 @@ const WorkoutScheduleManagement = () => {
       <td className="hidden md:table-cell">{item.status}</td>
       <td>
         <div className="flex items-center gap-2">
-          <Link href={`/listManagement/workoutSchedules/${item.id}`}>
+          <Link href={`/listManagement/workoutSchedule/${item.id}`}>
             <button className="w-7 h-7 flex items-center justify-center rounded-full ">
               <FontAwesomeIcon icon={faEye} className="w-5 h-5" />
             </button>

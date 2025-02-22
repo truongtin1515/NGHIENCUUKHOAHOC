@@ -63,6 +63,7 @@ const columns = [
 ];
 
 const UserManagement = () => {
+  const currentRole = "admin";
 
   const renderRow=(item:Account)=>(
     <tr key={item.id} className="border-b text-sm hover:bg-secondary ">
@@ -86,7 +87,7 @@ const UserManagement = () => {
           <FontAwesomeIcon icon={faEye} className="w-5 h-5" />
           </button>
           </Link>
-          {role==="admin" && (
+          {currentRole && (
             // <button className="w-7 h-7 flex items-center justify-center rounded-full ">
             // <FontAwesomeIcon icon={faTrashCan} className="w-5 h-5" />
             // </button>
@@ -108,7 +109,7 @@ const UserManagement = () => {
             <button className="w-8 h-8 text-white flex items-center justify-center ">
               <FontAwesomeIcon icon={faFilter} className="w-5 h-5"/>
             </button>
-            {role==="admin" && (
+            {currentRole && (
             //   <button className="w-8 h-8 flex items-center justify-center rounded-full bg-lamaYellow">
             //   <Image src="/image/plus.png" alt="" width={14} height={14}/>
             // </button>

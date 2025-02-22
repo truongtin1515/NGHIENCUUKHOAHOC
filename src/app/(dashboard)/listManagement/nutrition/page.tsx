@@ -52,7 +52,7 @@ const NutritionManagement = () => {
       <td className="hidden md:table-cell">{item.notes || "N/A"}</td>
       <td>
         <div className="flex items-center gap-2">
-          <Link href={`/nutrition/${item.id}`}>
+          <Link href={`/listManagement/nutrition/${item.id}`}>
             <button className="w-7 h-7 flex items-center justify-center rounded-full">
               <FontAwesomeIcon icon={faEye} className="w-5 h-5" />
             </button>

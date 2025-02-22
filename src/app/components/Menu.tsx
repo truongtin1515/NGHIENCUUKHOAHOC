@@ -68,12 +68,13 @@ const menuItems = [
   
 
   const Menu = () => {
+    const currentRole = "admin";
     return (
       <div className="mt-4 text-sm ">
         {menuItems.map((i) => (
           <div className="flex flex-col gap-2" key={i.title}>
             {i.items.map((item) => {
-              if (item.visible.includes(role)) {
+              if (item.visible.includes(currentRole)) {
                 return (
                   <Link
                     href={item.href}
